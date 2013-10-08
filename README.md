@@ -1,7 +1,7 @@
 flot-separated-bars
 ===================
 
-A distinct bars plugin for flot that plays nicely with the categories plugin
+A distinct bars plugin for flot that plays nicely with the categories plugin (make sure to include this AFTER jquery.flot.categories.js!)
 
 Enables displaying ordered bars side-by-side.
 
