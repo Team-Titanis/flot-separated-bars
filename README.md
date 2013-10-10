@@ -14,3 +14,5 @@ To activate the plugin you must specify the parameter "order" for the specific s
 Specifying a bar width along with the order is recommended. (e.g. `{barWidth: 0.3}`)
 
 If multiple series have the same order param, they are ordered by the position in the array
+
+Demo: http://jsfiddle.net/alalonde/ATqBX/
