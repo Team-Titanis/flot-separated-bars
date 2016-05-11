@@ -14,9 +14,6 @@
     "flot"
   ],
   "license": "MIT",
-  "dependencies":{
-    "flot":"flot"
-  },
   "ignore": [
     "**/.*",
     "node_modules",
