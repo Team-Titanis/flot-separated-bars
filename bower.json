@@ -1,0 +1,28 @@
+{
+  "name": "flot-separated-bars",
+  "homepage": "https://github.com/Team-Titanis/flot-separated-bars",
+  "version": "0.1",
+  "authors": [
+    "Benjamin Buffet",
+    "Alec LaLonde",
+    "maciej-pawlisz <maciej.pawlisz@titanis.pl>"
+  ],
+  "description": "A distinct bars plugin for flot that plays nicely with the categories plugin",
+  "main": "jquery.flot.distinct-bars.js",
+  "keywords": [
+    "jquery",
+    "flot"
+  ],
+  "license": "MIT",
+  "dependencies":{
+    "flot":"flot"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower/lib",
+    "test",
+    "tests"
+  ]
+}

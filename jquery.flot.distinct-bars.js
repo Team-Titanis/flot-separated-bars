@@ -62,6 +62,8 @@
       var gridDimSize = isHorizontal ? plot.getPlaceholder().innerHeight() : plot.getPlaceholder().innerWidth();
       var minMaxValues = isHorizontal ? getAxeMinMaxValues(plot.getData(),1) : getAxeMinMaxValues(plot.getData(),0);
       var AxeSize = minMaxValues[1] - minMaxValues[0];
+      if (AxeSize!=AxeSize) //AxeSize is NaN
+        AxeSize = 0;
       pixelInXWidthEquivalent = AxeSize / gridDimSize;
     }
 
